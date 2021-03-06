@@ -15,6 +15,7 @@
         <Square v-bind:label="squares[7].label" v-bind:id ="squares[7].id" v-on:click="click_pass" />
         <Square v-bind:label="squares[8].label" v-bind:id ="squares[8].id" v-on:click="click_pass" />
     </div>
+    {{squares}}
   </div>
 </template>
 
